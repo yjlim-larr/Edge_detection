@@ -34,11 +34,8 @@ It means x[n] = ifft(fft(x[n]))
 
 **Fast Fourier Transform's ouptut is set X and, it is periodic signal with 2pi.**
 
-# The result of fast fourier transform
-X(jw) = [X(j1 * 2pi/N), X(j2 * 2pi/N), ..., X(jN * 2pi/N)] = [Y(1), Y(2), .., Y(N)] 
-
-
-
+## The result of fast fourier transform
+Y[k] = X(jw) = [X(j1 * 2pi/N), X(j2 * 2pi/N), ..., X(jN * 2pi/N)] = [Y(1), Y(2), .., Y(N)]. Its length is defined x[n]'s length.
 
 
 # Edge detection with differentiaton
@@ -48,7 +45,8 @@ X(jw) = [X(j1 * 2pi/N), X(j2 * 2pi/N), ..., X(jN * 2pi/N)] = [Y(1), Y(2), .., Y(
 * using differentiation for getting edge
 <p align="center"> <img src="./img/img_edge.png" alt="MLE" width="60%" height="60%"/> </p>
 
-* 
+* inserting zero to high frequency's magnitude
+<p align="center"> <img src="./img/img_process.png" alt="MLE" width="60%" height="60%"/> </p> 
 
 
 #
