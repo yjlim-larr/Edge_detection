@@ -42,6 +42,9 @@ Y[k] = X(jw) = [X(j1 * 2pi/N), X(j2 * 2pi/N), ..., X(jN * 2pi/N)] = [Y(1), Y(2),
 * original image
 <p align="center"> <img src="./img/data1.png" alt="MLE" width="60%" height="60%"/> </p>
 
+* image frequency domain and log magnitude
+<p align="center"> <img src="./img/frequency_spectrum.png" alt="MLE" width="60%" height="60%"/> </p>
+
 * using differentiation for getting edge
 <p align="center"> <img src="./img/img_edge.png" alt="MLE" width="60%" height="60%"/> </p>
 
@@ -49,6 +52,6 @@ Y[k] = X(jw) = [X(j1 * 2pi/N), X(j2 * 2pi/N), ..., X(jN * 2pi/N)] = [Y(1), Y(2),
 <p align="center"> <img src="./img/img_process2.png" alt="MLE" width="60%" height="60%"/> </p> 
 
 * Inserting random amplitude at all frequency
-<p align="center"> <img src="./img/img_process.png" alt="MLE" width="60%" height="60%"/> </p>
+<p align="center"> <img src="./img/img_processed.png" alt="MLE" width="60%" height="60%"/> </p>
 
 #
