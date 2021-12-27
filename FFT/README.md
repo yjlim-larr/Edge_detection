@@ -32,7 +32,9 @@ And we get new form
 3. For satisfying transform's defined rule, "new fourier transform" should have "inverse transform" to recover transformed signal to original signal.  
 It means x[n] = ifft(fft(x[n]))
 
-4. 
+**Fast Fourier Transform's ouptut is set X and, it is periodic signal with 2pi. **
+
+# 
 
 
 
