@@ -52,7 +52,10 @@ phase:
 <p align="center"> <img src="./img/img_edge.png" alt="MLE" width="60%" height="60%"/> </p>
 
 * inserting zero to high frequency's magnitude
-<p align="center"> <img src="./img/img_process2.png" alt="MLE" width="60%" height="60%"/> </p> 
+<p align="center"> <img src="./img/img_low.png" alt="MLE" width="60%" height="60%"/> </p> 
+
+* inserting zero to low frequency's magnitude
+<p align="center"> <img src="./img/img_high.png" alt="MLE" width="60%" height="60%"/> </p> 
 
 * Inserting random amplitude at all frequency
 <p align="center"> <img src="./img/img_processed.png" alt="MLE" width="60%" height="60%"/> </p>
