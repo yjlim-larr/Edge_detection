@@ -7,7 +7,7 @@ I think the thing should satisfy somethings for being called "transform".
 For example, Fourier transform, it satisfy all condition described above. It's mathematical properties is not considered for judging that it is "transform" or not.
 
 Fast Frouier transform also should satisfy these conditions for called transformed. And its mathematical properties is other one. But fast fourier transform's goal is to maintain Fourier transform's mathematical properties and modify some point of fourier transform for being used in computer. So it defined as 
-<p align="center"> <img src="./img/FFT.png" alt="MLE" width="20%" height="20%"/> </p>
+<p align="center"> <img src="./img/FFT.png" alt="MLE" width="30%" height="30%"/> </p>
 
 Y(k) is the fast fourier transformed results and, X is the original signal. The difference between fourier tranform and Fast fourier transform is 
 1. Computer can't calculate "original integral form", because it can't save continuous data. It dispose of all data like discretized.  
@@ -21,7 +21,7 @@ pf) Discrete Fourier transform, DFT is defined
 And modify this form for defining FFT.
 
 1. x[n]'s length is N. Therefore x[1] ~ x[N]'s outside x[n] = 0. And  w = k * 2pi / N.  
-**NOTE**: Why range is [1,N]? It is same that [0, N-1] and [1, N]. Matlab just use [1, N]. 
+**NOTE**: Why range is [1,N]? It is same that [0, N-1] and [1, N], considering (j-1)(k-1). Matlab just use [1, N] for matching (j-1)(k-1). 
 
 2. X(e^jw) is defined discrete too. So X(e^jw) = X(e^(j*k*2pi/N)) = Y[k]
 **NOTE**: Computer save all of data discrete.
@@ -29,8 +29,11 @@ And modify this form for defining FFT.
 And we get new form
 <p align="center"> <img src="./img/FORM.png" alt="MLE" width="40%" height="40%"/> </p>
 
+3. For satisfying transform's defined rule, "new fourier transform" should have "inverse transform" to recover transformed signal to original signal.  
+It means x[n] = ifft(fft(x[n]))
 
-3. 
+4. 
+
 
 
 
