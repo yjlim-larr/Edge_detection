@@ -17,7 +17,7 @@ Same points are
 2. 푸리에 변환의 수학적 의의는 신호를 정현파의 결합으로 분해할 수 있음을 의미함으로, 오일러 공식을 이용해 exp(complex)form으로 분해하였다. 따라서, 변환식 및 역변환식에 W_n들의 선형 결합으로 표현되었다.
 
 pf) Discrete Fourier transform, DFT is defined 
-<p align="center"> <img src="./img/DFT.png" alt="MLE" width="40%" height="40%"/> </p>
+<p align="center"> <img src="./img/DFT.png" alt="MLE" width="20%" height="20%"/> </p>
 And modify this form for defining FFT.
 
 1. x[n]'s length is N. Therefore x[1] ~ x[N]'s outside x[n] = 0. And  w = k * 2pi / N.  
