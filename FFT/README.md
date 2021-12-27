@@ -59,6 +59,16 @@ phase:
 
 # differentiator
 If LTI sysmtem is differentiator, H(jw) is equal to jw.
+As w increase, H(jw)'s magnitude also increase. It means input X(jw)'s low frequency is filtered when it is input of H(jw).
+One purpose for which differentiating filters are often used is to enhance edges in picture processing.
+
+Images can be thought of x(t1, t2). x means brightness where (t1, t2) are horizontal and vertical coordinates on image's specific position.
+We can do 2 dimensional fourier transform this image and get linear combination of e^jw1t1, e^jw2t2.
+
+There is an abrupt variation in brightness across the edge, the frequency content of the edge in the horizontal direction is concentrated at high frequencies.
+Differentiator detect sudden changes, so edge is discovered. 
+
+
 
 이산 시간 푸리에 변환에서 LTI 시스템은 미분을 한다고 하자,
 H(jw) = jw이다. 따라서, 미분기는 양의 domain에서 pi/2위상 변화를 음의 domain에서 -pi/2 위상 변화를 한다.
