@@ -39,9 +39,6 @@ Y[k] = X(jw) = [X(j1 * 2pi/N), X(j2 * 2pi/N), ..., X(jN * 2pi/N)] = [Y(1), Y(2),
 
 
 # Edge detection with differentiaton
-log(magnitude): not important in image processing.  
-phase: important in image processing because, phase makes image's shape.
-
 * original image
 <p align="center"> <img src="./img/data1.png" alt="MLE" width="60%" height="60%"/> </p>
 
@@ -60,8 +57,6 @@ phase: important in image processing because, phase makes image's shape.
 * inserting zero to low frequency's magnitude
 <p align="center"> <img src="./img/img_high.png" alt="MLE" width="60%" height="60%"/> </p> 
 
-* Inserting random amplitude at all frequency
-<p align="center"> <img src="./img/img_processed.png" alt="MLE" width="60%" height="60%"/> </p>
 
 # Differentiator
 If LTI sysmtem is differentiator, H(jw) is equal to jw.
