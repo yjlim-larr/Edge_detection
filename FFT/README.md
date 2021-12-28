@@ -39,7 +39,7 @@ Y[k] = X(jw) = [X(j1 * 2pi/N), X(j2 * 2pi/N), ..., X(jN * 2pi/N)] = [Y(1), Y(2),
 
 
 # Edge detection with differentiaton
-Using matlab
+Using matlab for getting these results
 
 * original image
 <p align="center"> <img src="./img/data1.png" alt="MLE" width="60%" height="60%"/> </p>
