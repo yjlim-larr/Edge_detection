@@ -45,11 +45,14 @@ phase:
 * original image
 <p align="center"> <img src="./img/data1.png" alt="MLE" width="60%" height="60%"/> </p>
 
-* image frequency domain and log magnitude
+* image frequency domain and log magnitude with original img
 <p align="center"> <img src="./img/frequency_spectrum.png" alt="MLE" width="60%" height="60%"/> </p>
 
 * using differentiation for getting edge
 <p align="center"> <img src="./img/img_edge.png" alt="MLE" width="60%" height="60%"/> </p>
+
+* image frequency domain and log magnitude with differentiated img
+<p align="center"> <img src="./img/img_diff_spec.png" alt="MLE" width="60%" height="60%"/> </p>
 
 * inserting zero to high frequency's magnitude
 <p align="center"> <img src="./img/img_low.png" alt="MLE" width="60%" height="60%"/> </p> 
