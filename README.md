@@ -1,2 +1,2 @@
 # Edge_detection
-1. FFT repository is to use FFT for edge detection. I use matlab for getting result.
+1. In FFT repository, there is edge detection method by using FFT. I use matlab for getting result.
